@@ -1,6 +1,6 @@
 import React from "react";
 import { Typewriter } from "react-simple-typewriter";
-import profileImage from "../assets/Pranav.jpg";
+import profileImage from "../assets/WebsiteLogo.png";
 import Tilt from "react-parallax-tilt";
 
 const About = () => {
@@ -60,7 +60,7 @@ const About = () => {
               boxShadow: "0 0 40px rgba(130,69,236,0.6)",
             }}
           >
-            DOWNLOAD Resume
+            RESUME
           </a>
         </div>
 
