@@ -68,7 +68,8 @@ const About = () => {
         <div className="md:w-1/2 flex justify-center md:justify-end">
           <Tilt
             className="w-48 h-48 sm:w-64 sm:h-64 md:w-72 md:h-72
-                       border-4 border-[#8245ec]
+                       border-4 border-gray-400
+
                        rounded-full overflow-hidden"
             tiltMaxAngleX={20}
             tiltMaxAngleY={20}
