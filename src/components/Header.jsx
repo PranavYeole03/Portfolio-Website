@@ -42,7 +42,7 @@ const Header = () => {
       px-[7vw] lg:px-[20vw]
       ${
         scrolled
-          ? "bg-white/10 backdrop-blur-lg shadow-[0_4px_20px_rgba(130,69,236,0.15)]"
+          ? "bg-white/20 backdrop-blur-lg shadow-[0_4px_20px_rgba(130,69,236,0.15)]"
           : "bg-transparent"
       }`}
     >
