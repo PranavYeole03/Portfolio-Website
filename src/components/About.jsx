@@ -5,11 +5,10 @@ import Tilt from "react-parallax-tilt";
 
 const About = () => {
   return (
-<section
-  id="about"
-  className="scroll-mt-28 pt-12 pb-24 px-[12vw] md:px-[7vw] lg:px-[16vw] font-sans bg-skills-gradient clip-path-custom-2"
->
-
+    <section
+      id="about"
+      className="scroll-mt-28 pt-12 pb-24 px-[12vw] md:px-[7vw] lg:px-[16vw] font-sans bg-skills-gradient clip-path-custom-2"
+    >
       <div className="flex flex-col-reverse md:flex-row justify-between items-center">
         {/* Left Side */}
         <div className="md:w-1/2 text-center md:text-left mt-8 md:mt-0">
@@ -69,9 +68,7 @@ const About = () => {
         <div className="md:w-1/2 flex justify-center md:justify-end">
           <Tilt
             className="w-48 h-48 sm:w-64 sm:h-64 md:w-72 md:h-72
-                       border-4 border-gray-400
-
-                       rounded-full overflow-hidden"
+                       border-4 border-gray-400 rounded-full overflow-hidden"
             tiltMaxAngleX={20}
             tiltMaxAngleY={20}
             perspective={1000}
