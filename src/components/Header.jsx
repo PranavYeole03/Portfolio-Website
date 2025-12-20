@@ -34,7 +34,7 @@ const Header = () => {
     { id: "experience", label: "Experience" },
     { id: "work", label: "Projects" },
     { id: "education", label: "Education" },
-    {id:"contact",label:"Contact"},
+    { id: "contact", label: "Contact" },
   ];
 
   return (
@@ -58,9 +58,13 @@ const Header = () => {
             <li key={item.id}>
               <button
                 onClick={() => handleMenuItemClick(item.id)}
-                className={`hover:text-[#8245ec] transition-colors ${
-                  activeSection === item.id ? "text-[#8245ec]" : ""
-                }`}
+                className={`hover:text-[#8245ec] transition-colors         ${
+                    activeSection === item.id
+                      ? "text-white"
+                      : scrolled
+                      ? "text-gray-300 hover:text-white"
+                      : "text-gray-400 hover:text-white"
+                  }`}
               >
                 {item.label}
               </button>
